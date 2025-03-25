@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles">
+</head>
+
+<body>
+
+
+
+<div class="container">
+<h1>Pendientes en MeMasterCode</h1>
+
+<ul class="todo-list">
+    <li>
+        <input type="checkbox" id="li-1">
+        <label for="li-1">Chequear proyectos:</label>
+        <ul class="sub-item">
+            <li>
+                <a class="sub-item-link" href="https://mershar0.github.io/portfolio/" target="_blank">Portfolio</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <input type="checkbox" id="li-2">
+        <label for="li-2">Aprender datos curiosos:</label>
+        <ul class="sub-item">
+            <li>
+                <a class="sub-item-link" href="https://www.instagram.com/memastercode/" target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <input type="checkbox" id="li-3">
+        <label for="li-3">Crear hilos:</label>
+        <ul class="sub-item">
+            <li>
+                <a class="sub-item-link" href="https://x.com/memastercode" target="_blank">X</a>
+            </li>
+        </ul>
+    </li>
+
+    <li>
+        <input type="checkbox" id="li-4">
+        <label for="li-4">Subir más contenido:</label>
+        <ul class="sub-item">
+            <li>
+                <a class="sub-item-link" href="https://www.youtube.com/@MeMasterCode_" target="_blank">Youtube</a>
+            </li>
+        </ul>
+    </li>
+    
+</ul>
+</div>
+
+</body>
+
+</html>
